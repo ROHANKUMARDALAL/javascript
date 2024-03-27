@@ -17,6 +17,8 @@ console.log(gamename.length)
 console.log(gamename.toLocaleUpperCase())
 console.log(gamename.charAt(3))
 console.log(gamename.indexOf('a'))
+const newgame=gamename.substring(0,4)
+console.log(newgame)
 /**
  * various mathods of string describes above
  */
