@@ -15,6 +15,8 @@ console.log(gamename[3])
 console.log(gamename.__proto__)
 console.log(gamename.length)
 console.log(gamename.toLocaleUpperCase())
+console.log(gamename.charAt(3))
+console.log(gamename.indexOf('a'))
 /**
  * various mathods of string describes above
  */
