@@ -36,10 +36,14 @@ const newArr =myArr.join() // join method is bind the array and converted into S
 
 //. slice is use to split the array and form new array without affecting the original array
 //   splice is use to split the array and form new array & affecting the original array 
+
 console.log("A",myArr)
 const myn1 = myArr.slice(1,3)
 
 console.log(myn1)
-
 console.log("B",myArr)
 
+const myn2 = myArr.splice(1,3)
+console.log(myn2)
+
+console.log("c",myArr )
