@@ -1,5 +1,5 @@
 //function is used to save the time and code resuablity write once use many times
-
+//
 function myname()
 {
   console.log("Rohan");
