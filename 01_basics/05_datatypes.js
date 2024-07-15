@@ -5,8 +5,8 @@
 
 
 let name     ="Rohan"   //string datatype
-let age      = 23       // NUmber datatype
-let LoggedIn = false    // Boolean datatype
+let age      = 23       // Number datatype
+let isLoggedIn = false    // Boolean datatype
 
 
 
@@ -16,10 +16,12 @@ number    =   2 to power 53
 BigInt
 String    =   ""
 Boolean   =   true/false
-null      =  standalone value (Object datatype)
+null      =  standalone value (Object      datatype)
 undefined =   (undefined datatype is undefined)
 Symbol    =  
 */
 
 console.log(typeof name);
+console.log(typeof age);
 console.log(typeof undefined); // datatype is undefined
+
