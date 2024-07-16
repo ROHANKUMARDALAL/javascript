@@ -22,22 +22,22 @@ const obj2={3:"c",4:"d"}
 //const obj3={obj1,obj2} // not recommended
 
 
-const obj3= Object.assign({},obj1,obj2)   // merging two or more objects into one another object
+// const obj3= Object.assign({},obj1,obj2)   // merging two or more objects into one another object
 
-// const obj3 ={...obj1, ...obj2} // recommended it is also use to merge 2 or more objects
+ const obj3 ={...obj1, ...obj2} // recommended it is also use to merge 2 or more objects
 
- console.log(obj3);
+// console.log(obj3);
 
 
-const user=[
+const user=[//an Array
     {
       id:1,
       name:"abc"
-    },
+    },//object1
     {
         id:2,
         name:"def"
-    }
+    }//object2
 ]
 
 user[1].name
@@ -45,8 +45,10 @@ user[1].name
 
 // console.log(Object.keys(timuser));
 
-// console.log(Object.values(timuser));
+console.log(Object.values(timuser));
 
 
-// console.log(Object.entries(timuser));
+// console.log(Object.entries(timuser));//display/convert the keys and values of an object into an Array
+
+
 // console.log(timuser.hasOwnProperty('isloggedIn')); // use to check the value is present in object or not

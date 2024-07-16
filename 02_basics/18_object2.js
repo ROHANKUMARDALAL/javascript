@@ -49,6 +49,7 @@ user[1].name
 //console.log(timuser.hasOwnProperty('IsloggedIn')); // use to check the value is present in object or not
 
 
+
 const course={
     name     :  "JS",
     price    :  "999",
@@ -58,7 +59,7 @@ const course={
 //course.teacher
 
 const {teacher}= course
-console.log(teacher);
+console.log(teacher);//destructuring of an object
 //{
     //"name"   :  "Rohan Dalal",
     //"Course" :  "JS",
@@ -69,4 +70,13 @@ console.log(teacher);
     {},
     {},
     {}
-]
+]//format of an API may be as An object or sometimes may be as AN Array
+
+
+
+// react k kuch part
+// const navbar=({company})=>{
+
+// }
+// navbar(company='Rohan')
+
