@@ -1,6 +1,6 @@
 let value =3
-let negvalue = -value
-console.log(negvalue)
+let negValue = -value
+console.log(negValue)
 
 console.log(2+2)
 console.log(2**3) //double multiply sign worked as power operator
