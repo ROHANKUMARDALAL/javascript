@@ -8,8 +8,9 @@
  // of same data
  
 
-let myname="rohanalal"
+let myname="rohandalal"
 let anothername=myname
+
  anothername = "Mohit"
 console.log(myname)
 console.log(anothername);
