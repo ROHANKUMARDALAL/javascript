@@ -2,7 +2,8 @@
 
  const heroien = ["riya","akansha","kajal"]
 
- //hero.push(heroien) // another array is pushed into first array but act as a single element     
+ //hero.push(heroien) // another array is pushed into first array but act as a single element   
+
  //console.log(hero)
  //console.log(hero.length)
 
@@ -16,13 +17,18 @@ console.log(new1);
 
 
 const newArr = [1,2,3,[4,5,6],7,[6,7,[4,5]]] //  arrays into  array
+
 const usablearr= newArr.flat(Infinity)  // merge all subarray into single array
+
 console.log(usablearr);
 
-console.log(Array.isArray("rohan")) // used to check is it an array or m ot
+console.log(Array.isArray("rohan")) // used to check is it an array or not
 
-console.log(Array.from("rohan")) // used to form an array
+console.log(Array.from("rohan")) // used to form/convert in  an array
 
+// let myArr =[1,2,3,4,5];
+// myArr.unshift(9);
+// console.log(myArr);
 
 let score1=100
 
