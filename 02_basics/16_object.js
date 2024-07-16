@@ -2,7 +2,8 @@
 
 // object literals
 
-// Object.create
+// Object.create. //use to create an object with constructor methods
+
 
 const mysym=Symbol("key1")
 const user = {
@@ -11,7 +12,7 @@ const user = {
     age           :    23,
     [mysym]       :   "key1",
     location      :   "bulandshahr",
-    IsLoggedIn    :   false
+    isLoggedIn    :   false
 } 
 
 //console.log(user.fullname)
@@ -27,5 +28,10 @@ user.location ="bsr"
 user.greeting =function(){
     console.log("hello from rohan dalal");
 }
+
+user.greetingTwo =function(){
+    console.log(`hello from rohan dalal , ${this.name}`);
+}
 //console.log(user);
 console.log(user.greeting());
+console.log(user.greetingTwo());
