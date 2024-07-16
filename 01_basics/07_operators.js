@@ -3,7 +3,7 @@ let negValue = -value
 console.log(negValue)
 
 console.log(2+2)
-console.log(2**3) //double multiply sign worked as power operator
+console.log(2**3) //double multiply sign worked as power operator(2 ki power 3)
 console.log(4%2)  
 // all basics mathematical operators are worked as same in amths and other languages
 
@@ -21,3 +21,12 @@ console.log(1+2+"2")   // number+number+ string  = string  but n1+n2 performs ma
 console.log(true) // not recommended
 console.log(+"")  // not recommended
 
+let num1,num2,num3
+num1 = num2 = num3 = 2 + 2//not recommended
+
+let gameCounter=100;
+gameCounter++; //prefix inc operator
+console.log(gameCounter);
+
+++gameCounter; //postfix inc operator
+console.log(gameCounter);

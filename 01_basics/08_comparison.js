@@ -1,4 +1,4 @@
-// console.log(2 ==2)
+//console.log(2 ==2)
 // console.log(2!=2) //easiest comparison
 
 
@@ -24,3 +24,4 @@ console.log(null >0) //false
 
 //always avoid these types of conversion
 
+//Strict check(===) it will the data type of variable also
